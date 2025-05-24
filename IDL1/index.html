@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="assets/img/favicon.png" />
+        <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="lib/fontawesome/css/all.css" />
+        <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+        <title>Lima Music</title>
+        <style>
+            body { margin: 0; padding: 0; overflow-x: hidden; }
+            .parallax {
+                background-image: url("assets/img/parallax.jpg");
+                min-height: 500px;
+                background-attachment: fixed;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+            .card-gradient-music {
+                background-image: linear-gradient( 135deg, #b10303 20%, #2e0505 100%);
+            }
+        </style>
+    </head>
+    <body>
+        <!--<header></header>-->
+        <nav class="navbar navbar-expand-lg bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand me-5" href="#">
+                    <img class="d-inline-block align-text-center ms-4 me-2" src="assets/img/logo.svg" height="48" />
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fas fa-bars text-light"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <div class="d-flex justify-content-center w-100">
+                        <div class="mb-lg-0">
+                            <ul class="navbar-nav">
+                                <li class="nav-item fw-bold me-5 align-self-center"><a class="text-light nav-link active" aria-current="page" href="#">Inicio</a></li>
+                                <li class="nav-item fw-bold me-5 align-self-center"><a class="text-light nav-link" href="#">Nosotros</a></li>
+                                <li class="nav-item fw-bold me-5 align-self-center"><a class="text-light nav-link" href="#">Servicios</a></li>
+                                <li class="nav-item fw-bold me-5 align-self-center"><a class="text-light nav-link" href="#">Promociones</a></li>
+                                <li class="nav-item fw-bold me-5 align-self-center"><a class="text-light nav-link " href="#">Contáctenos</a></li>
+                                <li class="nav-item fw-bold align-self-center">
+                                    <button class="btn btn-dark" type="button"><i class="fas fa-magnifying-glass text-light"></i></button>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <main>
+            <section>
+                <article>
+                    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="assets/img/slide_03.png" class="d-block w-100" style="height: 600px;" />
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h1 class="display-1"><i class="fas fa-music me-5"></i>Melodías solo para tí</h1>
+                                    <p class="fs-2">Vive el mejor momento para tí, con nuestras mejores selección especial</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="assets/img/slide_01.jpg" class="d-block w-100" style="height: 600px;" />
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h1 class="display-1"><i class="fab fa-skyatlas me-5"></i>Descubre con nosotros el mundo ideal</h1>
+                                    <p class="fs-2">Tenemos todo los especial para tí, musica y relajo total</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="assets/img/slide_02.jpg" class="d-block w-100" style="height: 600px;" />
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h1 class="display-1"><i class="fab fa-audible me-5"></i>Disfruta de la experiencia, una noche de lujo</h1>
+                                    <p class="fs-2">El lugar donde la noche se convierte en una experiencia inolvidable para tí y tus amigos</p>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </article>
+            </section>
+            <section class="parallax">
+                <article>
+                    <div class="row">
+                        <div class="col">
+                            <h1 class="display-2 text-center mt-5 text-light fw-bold">Tipo de Melodías</h1>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <p class="fs-4 text-center mt-4 p-4 text-light">
+                                La exclusividad en cada detalle de nuestro ambiente. Donde la noche se convierte en leyenda con nuestra especialidad personalizada
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row row-cols-1 row-cols-md-3 g-6 p-4">
+                        <div class="col p-4">
+                            <div class="card border border-0 m-4">
+                                <img src="assets/img/cat01.png" class="card-img-top" />
+                                <div class="card-body card-gradient-music">
+                                    <h5 class="card-title text-center display-6 fw-bold text-light">Instrumental</h5>
+                                    <p class="card-text text-light">
+                                        Disfrute de nuestra estilo de música instrumental, para que pueda relajarse juntos con su amigos y eliminen todas las emociones negativas.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col p-4">
+                            <div class="card border border-0 m-4">
+                                <img src="assets/img/cat02.png" class="card-img-top" />
+                                <div class="card-body card-gradient-music">
+                                    <h5 class="card-title text-center display-6 fw-bold text-light">Electrónica</h5>
+                                    <p class="card-text text-light">
+                                        Nuestro estilo de música electrónica es la mas rankeada, debido a que usamos la más novedosa tecnología para crear sonidos y ritmos modernos.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col p-4">
+                            <div class="card border border-0 m-4">
+                                <img src="assets/img/cat03.png" class="card-img-top" />
+                                <div class="card-body card-gradient-music">
+                                    <h5 class="card-title text-center display-6 fw-bold text-light">Variada</h5>
+                                    <p class="card-text text-light">
+                                        No se pierda de este increíble mix con los mejores éxitos de ayer y hoy! Disfrute de una selección variada de temazos que han marcado historia.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </section>
+            <section class="bg-black">
+                <article>
+                    <div class="row">
+                        <div class="col">
+                            <h1 class="display-2 text-center mt-5 text-light fw-bold">Precios</h1>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <p class="fs-4 text-center mt-4 p-4 text-light">
+                                Nuestros servicios principales incluyen la venta de bebidas, la música, la ambientación, y en algunos casos, la oferta de comidas. 
+                                También ofrecemos eventos temáticos, conciertos en vivo, espectáculos de baile y karaoke.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row row-cols-1 row-cols-md-3 g-6 p-4">
+                        <div class="col p-4">
+                            <div class="card border border-0 m-4">
+                                <div class="card-body card-gradient-music">
+                                    <div class="mt-5 mb-5 text-center">
+                                        <i class="fab fa-battle-net text-light display-1"></i>
+                                    </div>
+                                    <h5 class="card-title text-center display-6 fw-bold text-light">Básico</h5>                                    
+                                    <p class="card-text text-light p-4">
+                                        Servicio de Discoteca y karaoke para todo tipos de eventos con el mejor precio y la mejor calidad de sonido y luces.
+                                    </p>
+                                    <div class="mt-5 mb-5 text-center">
+                                        <button class="btn bg-black"><span class="display-5 p-4 text-light">S/. 350.00</span></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col p-4">
+                            <div class="card border border-0 m-4">
+                                <div class="card-body card-gradient-music">
+                                    <div class="mt-5 mb-5 text-center">
+                                        <i class="fab fa-battle-net text-light display-1"></i>
+                                    </div>
+                                    <h5 class="card-title text-center display-6 fw-bold text-light">Promoción</h5>                                    
+                                    <p class="card-text text-light p-4">
+                                        Servicio de Discoteca y karaoke para todo tipos de eventos con el mejor precio y la mejor calidad de sonido y luces.
+                                    </p>
+                                    <div class="mt-5 mb-5 text-center">
+                                        <button class="btn bg-black"><span class="display-5 p-4 text-light">S/. 750.00</span></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col p-4">
+                            <div class="card border border-0 m-4">
+                                <div class="card-body card-gradient-music">
+                                    <div class="mt-5 mb-5 text-center">
+                                        <i class="fab fa-battle-net text-light display-1"></i>
+                                    </div>
+                                    <h5 class="card-title text-center display-6 fw-bold text-light">Especial</h5>                                    
+                                    <p class="card-text text-light p-4">
+                                        Servicio de Discoteca y karaoke para todo tipos de eventos con el mejor precio y la mejor calidad de sonido y luces.
+                                    </p>
+                                    <div class="mt-5 mb-5 text-center">
+                                        <button class="btn bg-black"><span class="display-5 p-4 text-light">S/. 1250.00</span></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </section>
+            <section>
+                <article>
+                    <div class="row bg-black">
+                        <div class="col-12 col-md-6 p-0 m-0">
+                            <img src="assets/img/g01.jpg" class="w-100 object-fit-contain" />
+                        </div>
+                        <div class="col-12 col-md-6 p-0 m-0 align-self-center">
+                            <h1 class="display-5 text-center mt-5 text-light">Conciertos Personalizados</h1>
+                            <p align="justify" class="fs-6 ms-4 me-4 mt-4 text-light">
+                                Ofrecemos una experiencia musical única, adaptada a las preferencias e 
+                                intereses de una persona o grupo, creando un evento inolvidable.
+                            </p>
+                            <div class="mt-5 mb-5 text-center">
+                                <button class="btn bg-white"><span class="fs-4 p-4 text-dark">Leer mas ...</span></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 col-md-6 p-0 m-0 align-self-center">
+                            <h1 class="display-5 text-center mt-5">Servicios Especiales</h1>
+                            <p align="justify" class="fs-6 ms-4 me-4 mt-4">
+                                Ofrecemos un servicio a gusto de las personas, cumpliendo sus grandes sueños, adaptada a las preferencias e 
+                                requeridas, creando así una experiencia innovadora.
+                            </p>
+                            <div class="mt-5 mb-5 text-center">
+                                <button class="btn bg-black"><span class="fs-4 p-4 text-light">Leer mas ...</span></button>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 p-0 m-0">
+                            <img src="assets/img/g02.jpg" class="w-100 object-fit-contain" />
+                        </div>
+                    </div>
+                </article>
+            </section>
+            <section class="bg-dark">
+                <article>
+                    <div class="row">
+                        <div class="col">
+                            <h1 class="display-2 text-center mt-5 text-light fw-bold">Nuestras Estadisticas</h1>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <p class="fs-4 text-center mt-4 p-4 text-light">
+                                La exclusividad en cada detalle de nuestro ambiente. Donde la noche se convierte en leyenda con nuestra especialidad personalizada
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row row-cols-1 row-cols-md-3 g-6 p-4">
+                        <div class="col p-4">
+                            <div class="card border border-0 m-4">
+                                <div class="card-body bg-dark">
+                                    <div class="mt-5 mb-5 text-center">
+                                        <i class="fab fa-joomla text-light display-1"></i>
+                                    </div>
+                                    <h5 class="card-title text-center display-6 fw-bold text-light">1550+</h5>
+                                    <p class="card-text text-light p-4 text-center fw-bold fs-4">Afiliados</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col p-4">
+                            <div class="card border border-0 m-4">
+                                <div class="card-body bg-dark">
+                                    <div class="mt-5 mb-5 text-center">
+                                        <i class="fas fa-users text-light display-1"></i>
+                                    </div>
+                                    <h5 class="card-title text-center display-6 fw-bold text-light">3240+</h5>
+                                    <p class="card-text text-light p-4 text-center fw-bold fs-4">Miembros Activos</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col p-4">
+                            <div class="card border border-0 m-4">
+                                <div class="card-body bg-dark">
+                                    <div class="mt-5 mb-5 text-center">
+                                        <i class="fab fa-unity text-light display-1"></i>
+                                    </div>
+                                    <h5 class="card-title text-center display-6 fw-bold text-light">14000+</h5>
+                                    <p class="card-text text-light p-4 text-center fw-bold fs-4">Comunidad</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </section>
+            <section>
+                <article>
+                    <div class="row">
+                        <div class="col position-relative">
+                            <img src="assets/img/disco.png" class="img-fluid w-100" />
+                            <div class="position-absolute top-50 start-50 translate-middle">
+                                <p align="justify" class="fs-4 text-light mb-5">
+                                    La Fiesta de fin de año 2025, no sólo es la más multitudinaria y divertida de Lima Metropolitana, sino que, 
+                                    además, la organización se distingue por ser líder en brindar máxima seguridad y garantías en todos los 
+                                    servicios que proporcionan durante sus eventos. No te pierdas, te estaremos esperando.
+                                </p>
+                                <h1 class="display-1 text-light text-center fw-bold">FIESTA DE FIN DE AÑO 2025</h1>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </section>
+            <section>
+                <article>
+                    <div class="row">
+                        <div class="col position-relative">
+                            <img src="assets/img/sucribe.svg" class="img-fluid w-100" />
+                            <div class="position-absolute top-50 start-50 translate-middle">
+                                <h1 class="display-1 text-light text-center fw-bold mb-5">SUSCRÍBASE</h1>
+                                <p align="justify" class="fs-4 text-light mb-4">
+                                    Suscribase y aproveche la calidad de servicio, junto con 25 djs repartidos en dos escenarios que darán vida 
+                                    a la gran fiesta de año nuevo en la Plaza de Armas, en la trasera del Auditorio, que se extenderá hasta las 
+                                    7:00 horas.<br /><br /><br /><br />
+                                </p>
+                                <div class="input-group">
+                                    <input type="text" class="form-control" placeholder="Especifique su correo electrónico" aria-describedby="button-addon2">
+                                    <button class="btn btn-lg btn-dark" type="button" id="button-addon2">Suscribase</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </section>
+            <section class="bg-black">
+                <article>
+                    <div class="row p-5">
+                        <div class="col-5">
+                            <div class="row mb-4">
+                                <div class="col"><img src="assets/img/logo.svg" height="48" /></div>
+                            </div>
+                            <div class="row mb-4">
+                                <div class="col">
+                                    <p align="justify" class="fs-6 text-light">
+                                        Mantenemos políticas de Calidad, Medio Ambiente y Seguridad y Salud Laboral buscando 
+                                        en todo momento la optimización de los procesos productivos y el uso de los recursos 
+                                        energéticos, la prevención de la contaminación y la preservación de la seguridad de 
+                                        nuestros trabajadores en el cumplimiento estricto de la legislación vigente.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <div class="hstack gap-3">
+                                        <div class="p-1"><span class="text-light">Siguenos en:</span></div>
+                                        <div class="p-1"><i class="fs-2 fab fa-facebook text-light"></i></div>
+                                        <div class="p-1"><i class="fs-2 fab fa-instagram text-light"></i></div>
+                                        <div class="p-1"><i class="fs-2 fab fa-twitter text-light"></i></div>
+                                        <div class="p-1"><i class="fs-2 fab fa-whatsapp text-light"></i></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 offset-1">
+                            <div class="row">
+                                <div class="col">
+                                    <div class="mb-3"><h4 class="fs-5 text-light">Nosotros</h4></div>
+                                    <div class="mb-3"><a href="#" class="text-light link-underline-dark">Historia</a></div>
+                                    <div class="mb-3"><a href="#" class="text-light link-underline-dark">Nuestro Equipo</a></div>
+                                    <div class="mb-3"><a href="#" class="text-light link-underline-dark">Guía de Marca</a></div>
+                                    <div class="mb-3"><a href="#" class="text-light link-underline-dark">Términos y Condiciones</a></div>
+                                    <div class="mb-3"><a href="#" class="text-light link-underline-dark">Política de Privacidad</a></div>
+                                </div>
+                                <div class="col">
+                                    <div class="mb-3"><h4 class="fs-5 text-light">Servicios</h4></div>
+                                    <div class="mb-3"><a href="#" class="text-light link-underline-dark">Cómo Ordenar</a></div>
+                                    <div class="mb-3"><a href="#" class="text-light link-underline-dark">Nuestros Productos</a></div>
+                                    <div class="mb-3"><a href="#" class="text-light link-underline-dark">Nuestros Servicios</a></div>
+                                    <div class="mb-3"><a href="#" class="text-light link-underline-dark">Promociones</a></div>
+                                    <div class="mb-3"><a href="#" class="text-light link-underline-dark">Métodos de Pago</a></div>
+                                </div>
+                                <div class="col">
+                                    <div class="mb-3"><h4 class="fs-5 text-light">Otros</h4></div>
+                                    <div class="mb-3"><a href="#" class="text-light link-underline-dark">Contáctenos</a></div>
+                                    <div class="mb-3"><a href="#" class="text-light link-underline-dark">Ayuda</a></div>
+                                    <div class="mb-3"><a href="#" class="text-light link-underline-dark">Privacidad</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </section>
+        </main>
+        <footer>
+            <div class="row">
+                <div class="col p-4 bg-black text-light text-center fs-6">
+                    Desarrollado por José Hugo Saravia Chávez <i class="fas fa-copyright"></i> 2025, todos los derechos reservados
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>

@@ -8,3 +8,4 @@ https://www.freepik.com/free-psd/various-web-printable-templates-with-screen_699
 	+ Se agrego un efecto Parallax usando CSS.
 	+ Se implemento un Carousel de Imagenes.
 	+ Para el diseño se uso Bootstrap y Fontawesome para usar las iconografías en la web.
+	+ El primer entregable se encuentra en la carpeta IDL1
