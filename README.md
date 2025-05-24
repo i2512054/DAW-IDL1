@@ -14,8 +14,7 @@ https://www.freepik.com/free-psd/various-web-printable-templates-with-screen_699
 
 - Resultado final:
 
-<img src="https://raw.githubusercontent.com/i2512054/Assets2025/refs/heads/main/web_p01.jpg" width=400>
-<img src="https://raw.githubusercontent.com/i2512054/Assets2025/3c05809ae9f916fefbaf122da215ef138c6bae6a/web_p02.jpg" width=400>
+<img src="https://github.com/i2512054/Assets2025/blob/main/webIDL01.jpg?raw=true" width=400>
 
 ## Autor
 | [<img src="https://avatars.githubusercontent.com/u/213133340?v=4" width=115><br><sub>José Hugo Saravia Chávez</sub>](https://github.com/i2512054/DAW-IDL1) |
