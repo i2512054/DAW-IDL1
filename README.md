@@ -9,3 +9,7 @@ https://www.freepik.com/free-psd/various-web-printable-templates-with-screen_699
 	+ Se implemento un Carousel de Imagenes.
 	+ Para el diseño se uso Bootstrap y Fontawesome para usar las iconografías en la web.
 	+ El primer entregable se encuentra en la carpeta IDL1
+	
+## Autor
+| [<img src="https://avatars.githubusercontent.com/u/213133340?v=4" width=115><br><sub>José Hugo Saravia Chávez</sub>](https://github.com/i2512054/DAW-IDL1) |
+| :---: |
